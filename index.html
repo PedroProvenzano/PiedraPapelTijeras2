@@ -14,16 +14,21 @@
   <body>
     <div class="container">
       <h1>Piedra, Papel o Tijera</h1>
-      <section class="pantallaUno">
+      <section class="pantalla pantallaUno">
         <p>Inserte su nombre aquí</p>
-        <input type="text" class="inputNombre" placeholder="Nombre..." />
+        <input
+          type="text"
+          id="inputNombre"
+          class="inputNombre"
+          placeholder="Nombre..."
+        />
         <div id="buttonInputNombre" class="button">
           <!-- Boton -->
           Así me llamo.
         </div>
       </section>
 
-      <section class="pantallaDos">
+      <section class="pantalla pantallaDos">
         <article class="consola">
           <h3 id="consolaTexto">Elección de la máquina</h3>
           <div class="resultadoMaquina" id="resultadoMaquina">
@@ -38,9 +43,10 @@
           <div class="buttonJugada"><i class="fas fa-hand-scissors"></i></div>
         </article>
         <article class="resultado">
-            <p>0 - 1</p>
+          <p>0 - 1</p>
         </article>
       </section>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
