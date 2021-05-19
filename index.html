@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/b3ba7fc5c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Piedra, Papel o Tijera</h1>
+      <section class="pantallaUno">
+        <p>Inserte su nombre aquí</p>
+        <input type="text" class="inputNombre" placeholder="Nombre..." />
+        <div id="buttonInputNombre" class="button">
+          <!-- Boton -->
+          Así me llamo.
+        </div>
+      </section>
+
+      <section class="pantallaDos">
+        <article class="consola">
+          <h3 id="consolaTexto">Elección de la máquina</h3>
+          <div class="resultadoMaquina" id="resultadoMaquina">
+            <i class="fas fa-hand-paper iconoResultado"></i>
+            <i class="fas fa-hand-rock iconoResultado"></i>
+            <i class="fas fa-hand-scissors iconoResultado"></i>
+          </div>
+        </article>
+        <article class="indexArticle">
+          <div class="buttonJugada"><i class="fas fa-hand-paper"></i></div>
+          <div class="buttonJugada"><i class="fas fa-hand-rock"></i></div>
+          <div class="buttonJugada"><i class="fas fa-hand-scissors"></i></div>
+        </article>
+        <article class="resultado">
+            <p>0 - 1</p>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
